@@ -22,19 +22,6 @@ This GitHub action checks all Markdown files in your repository for broken links
        - uses: tcort/github-action-markdown-link-check@v1
    ```
 
-### Real-life usage samples
-
-Following is a list of some of the repositories which are using GitHub Action -
-Markdown link check.
-
-1. [netdata](https://github.com/netdata/netdata/blob/master/.github/workflows/docs.yml) ![](https://img.shields.io/github/stars/netdata/netdata?style=social)
-1. [GoogleChrome/lighthouse (Weekly cron job)](https://github.com/GoogleChrome/lighthouse/blob/master/.github/workflows/cron-weekly.yml)
-   ![](https://img.shields.io/github/stars/GoogleChrome/lighthouse?style=social)
-1. [tendermint/tendermint](https://github.com/tendermint/tendermint/blob/master/.github/workflows/markdown-links.yml)
-   ![](https://img.shields.io/github/stars/tendermint/tendermint?style=social)
-1. [pyroscope-io/pyroscope](https://github.com/pyroscope-io/pyroscope/blob/main/.github/workflows/lint-markdown.yml)
-   ![](https://img.shields.io/github/stars/pyroscope-io/pyroscope?style=social)
-
 ## Configuration
 
 - [Custom variables](#custom-variables)

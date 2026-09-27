@@ -102,6 +102,11 @@ check_errors () {
       else
          echo -e "${YELLOW}=========================> MARKDOWN LINK CHECK <=========================${NC}"
          printf "\n"
+         if [ "$USE_VERBOSE_MODE" = "yes" ]; then
+            cat error.txt          # ← show all the ✓ links
+            printf "\n"
+         fi
+
          echo -e "${GREEN}[✔] All links are good!${NC}"
          printf "\n"
          echo -e "${YELLOW}=========================================================================${NC}"

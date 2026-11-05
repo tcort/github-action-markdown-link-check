@@ -126,7 +126,7 @@ pull request.
 When
 you use this variable, the action finds modified files between two commits:
 - latest commit in you PR
-- latest commit in the `master` branch. If you are suing a different branch to
+- latest commit in the `master` branch. If you are using a different branch to
   merge PRs, specify the branch using `base-branch`.
 
 > **NOTE**: We can also use GitHub API to get all modified files in a PR, but that
